@@ -1,0 +1,128 @@
+/* Seletor universal. */
+* {
+	/*
+		A propriedade margin do CSS define a área de margem nos quatro lados do elemento. É uma 
+		abreviação que define todas as margens individuais de uma só vez: margin-top, margin-right 
+		(en-US), margin-bottom, e margin-left (en-US).
+	*/
+    margin: 0 auto;
+	text-align: center;
+}
+
+/* Seletor por tag */
+img {
+	/* A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas. */
+	padding: 15px;
+	width: 250px;
+}
+
+/* Seletor por tag */
+main {
+	/* Ordem: top, right, bottom e left*/
+	padding: 10px 40px 10px 40px;
+}
+
+/* Seletor por tag */
+main article {
+	/* Ordem: top, right, bottom e left*/
+	margin: 0px 0px 20px 0px;
+}
+
+/* Seletor por tag */
+hr {
+	height: 1px;
+	background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+}
+
+/* Seletor por id */
+#produtos-info {
+
+	writing-mode: vertical-lr;
+	font-size: 10px;
+	color: white;
+	background-color: #333;
+	padding: 10px;
+	border-radius: 0px 10px 10px 0px;
+	margin-left: 0;
+	position: fixed;
+}
+
+/* Adiciona uma captulação ao parágrafo. */
+p::first-letter {
+	font-size: 250%;
+}
+
+/* Seletor por id */
+#produtos-info:hover {
+	background-color: rgb(68, 68, 68);
+	cursor: pointer;
+}
+
+/* Sequencia de seletores segindo hierarquia: tag, tag, classe e tag. */
+header ul.nav li {
+    display: inline;
+	/* Remove os marcadores da tabela */
+    list-style: none;
+}
+
+/* Sequencia de seletores segindo hierarquia: tag, tag, classe, tag e tag. */
+header ul.nav li a {
+	border-right: 0.1em solid #909090;
+	border-left: 0.1em solid #fff;
+	width: 9.0em;
+	color: #333;
+	padding: 10px;
+	text-decoration: none;
+	/* Garante que o tamanho da fonte seja dimencionado */
+    font-size: calc(60% + 1vmin);
+}
+
+/* Seletor por tag */
+p {
+	/* Garante que o tamanho da fonte seja dimencionado */
+	font-size: calc(60% + 0.8vmin);
+	text-align: justify;
+}
+
+/* Seletor por tag */
+h1 {
+	padding: 10px;
+}
+
+/* Seletor por id */
+#contato {
+    border-right: 0.1em solid #fff;
+}
+
+/* efeito de mudança de cor do texto ao passar o mouse. */
+header ul.nav a:hover{
+	color:rgb(189, 189, 189);
+}
+
+/* Seletor por tag */
+footer {
+	padding: 20px;
+}
+
+/* Sequencia de seletores segindo hierarquia: tag, tag, tag, tag e tag. */
+footer table tr td a {
+	padding: 3px;
+	display: block;
+	text-decoration: solid;
+	color: black;
+}
+
+/* efeito de mudança de cor do texto ao passar o mouse. */
+footer table tr td a:hover {
+	color: #333;
+}
+
+/* Seletor por classe */
+.social {
+	width: 2rem;
+}
+
+/* Seletor por id */
+#direitos {
+	font-size: 0.733rem;
+}

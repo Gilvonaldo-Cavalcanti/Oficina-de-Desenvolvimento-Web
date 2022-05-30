@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- 
+    O elemento HTML <head> providencia informações gerais (metadados) sobre o documento, incluindo 
+    seu título e links para scripts e folhas de estilos.
+ -->
+<head>
+    <!-- 
+        O elemento HTML <meta> define qualquer informação de metadados que não podem ser definidos 
+        por outros elementos HTML.
+     -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--
+        O Elemento HTML <link> especifica as relações entre o documento atual e um recurso externo. 
+        Possíveis usos para este elemento incluem a definição de uma estrutura relacional para 
+        navegação. Este elemento é mais usado para vincular as folhas de estilo. 
+     -->
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/sebrae.png">
+    <title>Site Exemplo</title>
+</head>
+
+<!--
+    O elemento <body> do HTML representa o conteúdo de um documento HTML. è permitido apenas 
+    um <body> por documento.
+-->
+<body>
+    <!-- O elemento HTML <header> representa um grupo de suporte introdutório ou navegacional. 
+        Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, 
+        seções de cabeçalho, formulário de pesquisa, e outros. -->
+    <header>
+
+        <div>
+            <img src="img/sebrae.png" alt="Logo do Sebrae">
+        </div>
+
+        <!-- O Elemento HTML de Navegação (<nav>) representa uma seção de uma página que aponta 
+            para outras páginas ou para outras áreas da página, ou seja, uma seção com links de 
+            navegação. -->
+        <nav>
+            <ul class="nav">
+                <li><a href="#principal">Principal</a></li>
+                <li><a href="#area-atuacao">História</a></li>
+                
+                <li><a href="#contato">Eventos</a></li>
+                <li><a id="contato" href="#login">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div><h1 id="produtos-info">Conheça Nossos Produtos</h1></div>
+
+    <!-- O elemento <main> define o conteúdo principal dentro do <body> em seu documento ou aplicação. 
+        Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central 
+        da página ou com a funcionalidade central da aplicação. -->
+    <main>
+        
+        <!-- 
+            O Elemento HTML Article (<article>) representa uma composição independente em um documento, 
+            página, aplicação, ou site, ou que é destinado a ser distribuido de forma independente ou 
+            reutilizável, por exemplo, em sindicação. Este poderia ser o post de um fórum, um artigo de 
+            revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou 
+            widget interativos, ou qualquer outra forma de conteúdo independente.
+         -->
+        <article>
+            <hr>
+            <h1>Lorem Ipsum is</h1>
+            <section><p>Lorem ipsum, Lorem Ipsum is simply dummy established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. of Lorem Ipsum. dolor sit amet consectetur adipisicing elit. Quisquam sapiente unde accusamus placeat, architecto officia numquam voluptates hic obcaecati tenetur quae et recusandae sint reprehenderit eos, quis ratione voluptatibus ex? consectetur adipisicing elit. Quisquam sapiente unde accusamus placeat, architecto officia numquam voluptates hic obcaecati tenetur quae et recusandae sint reprehenderit eos, quis ratione voluptatibus ex?</p></section>
+            <section><p>Qedasr established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                amet ipsum dolor sit amet consectetur adipisicing elit. Rerum iste voluptatibus nesciunt, non possimus impedit hic necessitatibus doloribus, enim ea repudiandae! Illum, porro. Itaque, reiciendis maxime eum adipisci illum laudantium.</p></section>
+            
+        </article>
+
+        <article>
+            <!-- 
+                O elemento HTML <section> representa uma seção genérica contida em um documento HTML, 
+                geralmente com um título, quando não existir um elemento semântico mais específico 
+                para representá-lo.
+             -->
+            <section>
+                <hr>
+                <table width="100%" cellpadding="10">
+                    <tr>
+                        <td width="50%" valign="top">
+                            <h1>Long established</h1>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </p>
+                        </td>
+                        
+                        <td width="50%" valign="top">
+                            <h1>Ipsum is Simply</h1>
+                            <p>
+                                <strong>Ipsum is simply</strong> Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, molestiae consectetur officia dolorem ipsum illo expedita dolorum excepturi debitis esse minus, consequuntur nobis labore doloribus, iste nihil facilis veniam ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi consequatur distinctio rerum quasi delectus, necessitatibus deserunt voluptates dolor perspiciatis esse suscipit molestiae deleniti minima magni in sequi! Laudantium, magnam eum
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+
+        <article>
+            <hr>
+            <h1>Established Fact</h1>
+            <section><p>Qedasr established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                amet ipsum dolor sit amet consectetur adipisicing elit. Rerum iste voluptatibus nesciunt, non possimus impedit hic necessitatibus doloribus, enim ea repudiandae! Illum, porro. Itaque, reiciendis maxime eum adipisci illum laudantium.</p></section>
+                <section><p>Lorem ipsum, Lorem Ipsum is simply dummy established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    text of the printing</p></section>
+            
+        </article>
+
+    </main>
+
+    <!-- 
+        O elemento HTML de Rodapé (<footer>) representa um rodapé para o seu sectioning content 
+        (conteúdo de seção).
+     -->
+    <footer>
+        <hr>
+        
+        <table width="100%" cellpadding="10">
+            
+            <tr>
+                <td width="25%" valign="top">
+                    <h2>Ipsum Klobsw</h2>
+                    <a href="#">
+                        Fact that a reader fugiat
+                    </a>
+                    <a href="#">
+                        Nulla Pariatur Excepteur
+                    </a>
+                    <a href="#">
+                        Sint Occaecat
+                    </a>
+                </td>
+                
+                <td width="25%" valign="top">
+                    <h2>Many Desktop</h2>
+                    <a href="#">
+                        Readable English
+                    </a>
+                    
+                    <a href="#">
+                        Et harum quidem
+                    </a>      
+                    
+                    <a href="#">
+                        What We Like Best
+                    </a>    
+                    
+                    <a href="#">
+                        harum Quidem
+                    </a>    
+
+                </td>
+                <td width="25%" valign="top">
+                    <h2>Simply Dummy</h2>
+                    <a href="#">
+                        Sometimes by Acciden
+                    </a>
+                    <a href="#">
+                        Aut Officiis 
+                    </a>
+                </td>
+                
+                <td width="25%" valign="top">
+                    <h2>Has a more-or-less</h2>
+                    <a href="#">
+                        Quis Autem Vel
+                    </a>
+                    <a href="#">
+                        Ut Enim ad Mminima
+                    </a>
+                    <a href="#">
+                        Boluptatem Accusantium
+                    </a>
+                    <a href="#">
+                        Reader Will
+                    </a>
+                </td>
+            </tr>
+        </table> 
+
+        <section>
+            
+            <!-- O elemento <a> em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação 
+                nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. -->
+            <a href=""><img class="social" src="img/brand-facebook.png" alt=""></a>
+            <a href=""><img class="social" src="img/brand-instagram.png" alt=""></a>
+            <a href=""><img class="social" src="img/brand-linkedin.png" alt=""></a>
+            <a href=""><img class="social" src="img/brand-youtube.png" alt=""></a>
+        </section>
+
+        <!-- 
+            O elemento HTML <span> é um conteiner generico em linha para conteúdo fraseado , que não 
+            representa nada por natureza.
+         -->
+        <span id="direitos">
+            &#xa9; Oficina de Desenvolvimento Web, 2022.
+        </span>
+    </footer>
+</body>
+</html>
